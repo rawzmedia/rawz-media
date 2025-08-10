@@ -103,37 +103,63 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="contacto" className="mx-auto max-w-7xl px-4 py-16">
-        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Contacto</h2>
-        <div className="mt-6 grid md:grid-cols-2 gap-6">
-          <form className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 space-y-4" onSubmit={(e)=>e.preventDefault()}>
-            <div>
-              <label className="text-sm text-zinc-300">Nombre</label>
-              <input className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white" placeholder="Tu nombre" />
-            </div>
-            <div>
-              <label className="text-sm text-zinc-300">Email</label>
-              <input type="email" className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white" placeholder="tu@email.com" />
-            </div>
-            <div>
-              <label className="text-sm text-zinc-300">Mensaje</label>
-              <textarea rows={4} className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white" placeholder="Cuéntanos del proyecto" />
-            </div>
-            <div className="flex gap-3">
-              <a href="mailto:hola@rawzmedia.cl?subject=Cotización%20RAWZ%20MEDIA" className="inline-flex rounded-2xl bg-white text-zinc-900 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-200 transition">Enviar</a>
-              <a href="https://wa.me/56900000000" target="_blank" className="inline-flex rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm font-semibold hover:border-white transition">WhatsApp</a>
-            </div>
-
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6">
-            <div className="text-sm text-zinc-300">Detalles</div>
-            <ul className="mt-3 space-y-2 text-sm text-zinc-400">
-              <li><span className="text-zinc-300">Email:</span> hola@rawzmedia.cl</li>
-              <li><span className="text-zinc-300">Ubicación:</span> Santiago (Lampa), Chile</li>
-              <li><span className="text-zinc-300">Horarios:</span> Lun–Vie / 10:00–19:00</li>
-              <li className="text-xs text-zinc-500 mt-4">Al enviar, aceptas nuestra política de pagos: 50% de anticipo al aprobar; saldo a la entrega.</li>
-            </ul>
-          </div>
-        </div>
+ <section id="contacto" className="mx-auto max-w-7xl px-4 py-16">
+  <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Contacto</h2>
+  <div className="mt-6 grid md:grid-cols-2 gap-6">
+    <form className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 space-y-4">
+      <div>
+        <label className="text-sm text-zinc-300">Nombre</label>
+        <input
+          className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
+          placeholder="Tu nombre"
+        />
+      </div>
+      <div>
+        <label className="text-sm text-zinc-300">Email</label>
+        <input
+          type="email"
+          className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
+          placeholder="tu@email.com"
+        />
+      </div>
+      <div>
+        <label className="text-sm text-zinc-300">Mensaje</label>
+        <textarea
+          rows={4}
+          className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
+          placeholder="Cuéntanos del proyecto"
+        />
+      </div>
+      <div className="flex gap-3">
+        <a
+          href="mailto:hola@rawzmedia.cl?subject=Cotización%20RAWZ%20MEDIA"
+          className="inline-flex rounded-2xl bg-white text-zinc-900 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-200 transition"
+        >
+          Enviar
+        </a>
+        <a
+          href="https://wa.me/56900000000"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm font-semibold hover:border-white transition"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </form>
+    <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6">
+      <div className="text-sm text-zinc-300">Detalles</div>
+      <ul className="mt-3 space-y-2 text-sm text-zinc-400">
+        <li><span className="text-zinc-300">Email:</span> hola@rawzmedia.cl</li>
+        <li><span className="text-zinc-300">Ubicación:</span> Santiago (Lampa), Chile</li>
+        <li><span className="text-zinc-300">Horarios:</span> Lun–Vie / 10:00–19:00</li>
+        <li className="text-xs text-zinc-500 mt-4">
+          Al enviar, aceptas nuestra política de pagos: 50% de anticipo al aprobar; saldo a la entrega.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
       </section>
       <footer className="border-t border-zinc-800">
         <div className="mx-auto max-w-7xl px-4 py-10 text-sm text-zinc-500 flex flex-col md:flex-row items-center justify-between gap-4">
