@@ -5,3 +5,20 @@
 html, body { height: 100%; }
 body { @apply bg-zinc-950 text-zinc-100 antialiased; }
 a { @apply underline-offset-4; }
+/* Regular */
+@font-face {
+  font-family: 'Eurostile Extended';
+  src: url('/fonts/Eurostile Extended Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Eurostile Extended';
+  src: url('/fonts/Eurostile Extended Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
