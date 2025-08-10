@@ -1,7 +1,7 @@
 'use client'
 export default function Page() {
   const packages = [
-    { name: "Fotografía de Producto", price: "$200.000 – $600.000 + IVA", features: ["Iluminación y fondo blanco","Edición básica incluida","Opcional: asistente en set"] },
+    { name: "Fotografía de Producto", price: "Desde $200.000 + IVA", features: ["Iluminación y fondo blanco","Edición básica incluida","Opcional: asistente en set"] },
     { name: "Producciones Corporativas (Foto + Video)", price: "$250.000 – $550.000 + IVA", features: ["Drone y entrevistas (opcionales)","Entrega optimizada para RRSS","Soporte de respaldo en set (RAWZ Tech Kit)"] },
     { name: "Eventos Corporativos (Cobertura)", price: "$200.000 – $300.000 + IVA", features: ["Fotos + video + reel","Edición incluida","4 cuñas / testimonio (opcionales)"] },
     { name: "Pack Evento en Santiago", price: "$250.000 + IVA", features: ["Fotos + reel + 4 cuñas","Asistente + edición","Política: 50% de anticipo"] },
