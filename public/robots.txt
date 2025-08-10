@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rawzmedia.cl/sitemap.xml
