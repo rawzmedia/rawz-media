@@ -123,47 +123,7 @@ export default function Page() {
               <a href="mailto:hola@rawzmedia.cl?subject=Cotización%20RAWZ%20MEDIA" className="inline-flex rounded-2xl bg-white text-zinc-900 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-200 transition">Enviar</a>
               <a href="https://wa.me/56900000000" target="_blank" className="inline-flex rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm font-semibold hover:border-white transition">WhatsApp</a>
             </div>
-          <form className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 space-y-4">
-  <div>
-    <label className="text-sm text-zinc-300">Nombre</label>
-    <input
-      className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
-      placeholder="Tu nombre"
-    />
-  </div>
-  <div>
-    <label className="text-sm text-zinc-300">Email</label>
-    <input
-      type="email"
-      className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
-      placeholder="tu@email.com"
-    />
-  </div>
-  <div>
-    <label className="text-sm text-zinc-300">Mensaje</label>
-    <textarea
-      rows={4}
-      className="mt-1 w-full rounded-xl bg-zinc-950 border border-zinc-800 px-3 py-2 text-sm outline-none focus:border-white"
-      placeholder="Cuéntanos del proyecto"
-    />
-  </div>
-  <div className="flex gap-3">
-    <a
-      href="mailto:hola@rawzmedia.cl?subject=Cotización%20RAWZ%20MEDIA"
-      className="inline-flex rounded-2xl bg-white text-zinc-900 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-200 transition"
-    >
-      Enviar
-    </a>
-    <a
-      href="https://wa.me/56900000000"
-      target="_blank"
-       rel="noopener noreferrer"
-      className="inline-flex rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm font-semibold hover:border-white transition"
-    >
-      WhatsApp
-    </a>
-  </div>
-</form>
+
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6">
             <div className="text-sm text-zinc-300">Detalles</div>
             <ul className="mt-3 space-y-2 text-sm text-zinc-400">
