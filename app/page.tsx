@@ -159,7 +159,6 @@ export default function Page() {
       </ul>
     </div>
   </div>
-</section>
       </section>
       <footer className="border-t border-zinc-800">
         <div className="mx-auto max-w-7xl px-4 py-10 text-sm text-zinc-500 flex flex-col md:flex-row items-center justify-between gap-4">
