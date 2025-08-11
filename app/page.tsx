@@ -36,7 +36,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-4 pt-20 pb-16">
           <div className="max-w-3xl">
             <p className="text-xs uppercase tracking-[0.25em] text-zinc-400">Visuales que venden</p>
-            <h1 className="mt-3 text-4xl md:text-6xl font-extrabold tracking-tight">Contenido <span className="text-white/90">ágil</span>, <span className="text-white/90"><span className="underline decoration-white/20">limpio</span></span> y rentable.</h1>
+            <h1 className="font-eurostile mt-3 text-4xl md:text-6xl font-extrabold tracking-tight">Contenido <span className="text-white/90">ágil</span>, <span className="text-white/90"><span className="underline decoration-white/20">limpio</span></span> y rentable.</h1>
             <p className="mt-5 text-zinc-300 text-lg">Producimos fotos y videos que convierten: desde activaciones hasta campañas corporativas. Directo al grano, con un flujo pro y entregas listas para RRSS.</p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a href="#contacto" className="inline-flex justify-center rounded-2xl bg-white text-zinc-900 px-6 py-3 font-semibold hover:bg-zinc-200 transition">Pedir cotización</a>
