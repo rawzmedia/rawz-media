@@ -11,7 +11,7 @@ export default function Page() {
     { title: "Contenido Corporativo", desc: "Entrevistas, cápsulas internas, reels y piezas para marketing." },
     { title: "Producto & E-commerce", desc: "Fotografía limpia, consistente y lista para catálogo." },
     { title: "Aéreos con Drone", desc: "Planos aéreos estables y legales (según requerimiento)." },
-    { title: "Asistencia Técnica (RAWZ Tech Kit)", desc: "Respaldo en set, ingest, verificación y flujo de archivos pro." },
+    { title: "Asistencia Técnica (RAWZ Tech Kit)", desc: "Respaldo en set, ingest, verificación y flujo de archivos." },
   ];
   const nav = ["Servicios","Portafolio","Paquetes","Contacto"];
   return (
@@ -42,9 +42,6 @@ export default function Page() {
               <a href="#contacto" className="inline-flex justify-center rounded-2xl bg-white text-zinc-900 px-6 py-3 font-semibold hover:bg-zinc-200 transition">Pedir cotización</a>
               <a href="#paquetes" className="inline-flex justify-center rounded-2xl border border-zinc-700 px-6 py-3 font-semibold hover:border-white transition">Ver paquetes</a>
             </div>
-            <div className="mt-6 text-xs text-zinc-400">Política de pagos: 50% de anticipo al aprobar. Saldo a la entrega.</div>
-          </div>
-        </div>
       </section>
       <section id="servicios" className="mx-auto max-w-7xl px-4 py-16">
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Servicios</h2>
