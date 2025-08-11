@@ -20,6 +20,8 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 antialiased">
+          <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/70 border-b border-zinc-800">
+      <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-white text-zinc-900 grid place-items-center font-black tracking-tight">R</div>
             <div className="leading-tight">
