@@ -21,7 +21,7 @@ export default function Page() {
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-white text-zinc-900 grid place-items-center font-black tracking-tight">R</div>
             <div className="leading-tight">
-              <div className="font-extrabold text-lg tracking-tight">RAWZ MEDIA</div>
+              <div className="font-eurostile font-extrabold text-lg tracking-tight">RAWZ MEDIA</div>
               <div className="text-xs text-zinc-400">Productora Audiovisual — Santiago, Chile</div>
             </div>
           </div>
