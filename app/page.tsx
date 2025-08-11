@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 export default function Page() {
   const packages = [
     { name: "Fotografía de Producto", price: "Desde $200.000 + IVA", features: ["Iluminación y fondo blanco","Edición básica incluida","Opcional: asistente en set"] },
@@ -6,6 +7,7 @@ export default function Page() {
     { name: "Eventos Corporativos (Cobertura)", price: "$200.000 – $300.000 + IVA", features: ["Fotos + video + reel","Edición incluida","4 cuñas / testimonio (opcionales)"] },
     { name: "Pack Evento en Santiago", price: "$250.000 + IVA", features: ["Fotos + reel + 4 cuñas","Asistente + edición","Política: 50% de anticipo"] },
   ];
+
   const services = [
     { title: "Cobertura de Eventos", desc: "Foto y video de alto impacto para activaciones, ferias y lanzamientos." },
     { title: "Contenido Corporativo", desc: "Entrevistas, cápsulas internas, reels y piezas para marketing." },
@@ -13,11 +15,11 @@ export default function Page() {
     { title: "Aéreos con Drone", desc: "Planos aéreos estables y legales (según requerimiento)." },
     { title: "Asistencia Técnica (RAWZ Tech Kit)", desc: "Respaldo en set, ingest, verificación y flujo de archivos pro." },
   ];
+
   const nav = ["Servicios","Portafolio","Paquetes","Contacto"];
+
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 antialiased">
-      <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/70 border-b border-zinc-800">
-        <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-white text-zinc-900 grid place-items-center font-black tracking-tight">R</div>
             <div className="leading-tight">
